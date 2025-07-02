@@ -28,4 +28,4 @@ jobs:
       - name: Logout from the Registry
         if: always()
         run: |
-          docker logout 
+          docker logout
